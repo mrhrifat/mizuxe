@@ -1,0 +1,169 @@
+body{
+	margin-top: 90px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.iconImg{
+	width: 45%;
+}
+.navbar{
+	box-shadow: 2px 2px 5px #3498db;
+	background: #fff;
+	opacity: 0.9;
+}
+.navbar-brand h2{
+	font-size: 30px;
+	color: #3498db;
+}
+.nav-item{
+	padding-right: 5px;
+	font-size: 20px;
+}
+.nav-item:last-child{
+	padding-right: 0px;
+}
+.navbar-nav  li a {
+	color:#333 !important;
+}
+.navbar-nav li a:hover{
+	color: #3498db !important;  
+}
+
+/*Showcase*/
+#showcase{
+	background:url('../img/showcase.jpg')no-repeat center center;
+	background-size: cover;
+	min-height: 610px;
+	position: relative;
+}
+.inner-overlay{
+	background: rgba(50,146,156,0.7);
+	min-height: 610px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#showcase .btn{
+	border-radius: 0 !important;
+
+}
+#showcase .imgB{
+	width: 60%;
+	opacity: 0.8;
+	margin-top: 85px;
+}
+
+#subscribe #bt {
+	background-color:#3292A6 !important; 
+	border: 0 !important;
+}
+
+
+/*Box*/
+#box .card{
+	border-radius: 0 !important;
+}
+#box #d h2{
+	color: #3292A6 !important;
+}
+#box #b{
+	background-color: #3292A6 !important;
+}
+/*About*/
+#about{
+	background: #F8F9FA !important;
+
+}
+#about h1{
+	color: #3292A6 !important;
+}
+
+#accordion{
+	cursor: pointer;
+}
+#meet-authors h1{
+	color: #3292A6 !important;
+}
+#meet-authors img{
+	margin-top: -30%;
+}
+#meet-authors .fab{
+	font-size: 25px;
+
+
+}
+
+#meet-authors  .card:hover{
+	background:#3292A6;
+	color:#fff;
+}
+#contact #sub{
+	background-color: #3292A6 !important;
+}
+
+#f{
+	background-color: #3292A6 !important;
+}
+@media(max-width:1199px){
+	#showcase h1{
+		font-size: 85px;
+	}
+}
+
+@media(max-width: 991px){
+	#showcase .imgB{
+		height: 350px;
+		width: 100%;
+		
+	}
+	#showcase h1{
+		font-size: 85px;
+	}
+	#box .card{
+		margin-top: 5px;
+	}
+	#meet-authors .card {
+		margin-top: 40px;
+	}
+}
+@media(max-width: 567px){
+	#meet-authors .card{
+		width: 60%;
+		margin: auto;
+		margin-top: 40px;
+	}
+	#about h1{
+		font-size: 40px;
+	}
+	#contact h1{
+		font-size: 40px;
+	}
+	#meet-authors h1{
+		font-size: 40px;
+	}
+}
+@media(max-width:460px){
+	#showcase h1{
+		font-size: 75px;
+	}
+}
+@media(max-width:399px){
+	#showcase h1{
+		font-size: 50px;
+	}
+	#about h1{
+		font-size: 35px;
+	}
+	#contact h1{
+		font-size: 35px;
+	}
+	#meet-authors h1{
+		font-size: 35px;
+	}
+	.navbar-brand{
+	margin: 0;
+	width: 70%;
+}
